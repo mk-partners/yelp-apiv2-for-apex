@@ -1,4 +1,4 @@
-public with sharing class yelpAPI {
+public without sharing class yelpAPI {
 
 	public static string BASE_URL = 'http://api.yelp.com/v2/';
 	public static string CONSUMER_KEY = '';
